@@ -1,5 +1,6 @@
 import './App.css';
 import Btn from './components/Btn.js'
+import FourWaysToHandleEvent from './components/FourWaysToHandleEvent.js';
 
 
 function Header() {
@@ -9,8 +10,9 @@ function Header() {
 function App() {
   return (
     <>
-      <Header />
-      <Btn />
+      {/* <Header />
+      <Btn /> */}
+      <FourWaysToHandleEvent />
     </>
 
 
