@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import Btn from './components/Btn.js'
 
 
 function Header() {
@@ -7,7 +7,14 @@ function Header() {
 }
 
 function App() {
-  return <Header />;
+  return (
+    <>
+      <Header />
+      <Btn />
+    </>
+
+
+  );
 }
 
 export default App;
