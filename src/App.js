@@ -1,4 +1,5 @@
 import './App.css';
+import ArrayDestructure from './components/ArrayDestructure.js';
 import Btn from './components/Btn.js'
 import FourWaysToHandleEvent from './components/FourWaysToHandleEvent.js';
 import NumberGuessBetween1and3 from './components/NumberGuessBtween1and3.js';
@@ -11,9 +12,10 @@ function Header() {
 function App() {
   return (
     <>
+    <ArrayDestructure />
       {/* <Header />
       <Btn /> */}
-      <NumberGuessBetween1and3 />
+      {/* <NumberGuessBetween1and3 /> */}
     </>
 
 
