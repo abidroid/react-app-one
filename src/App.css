@@ -37,3 +37,25 @@
   }
 }
 
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #61dafb;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.counter-button {
+  background-color: blue;
+  color: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
