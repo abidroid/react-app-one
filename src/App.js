@@ -1,6 +1,5 @@
 import './App.css';
-
-import Lightbulb from './components/Lightbulb.js';
+import Counter from './components/Counter.js';
 
 function Header() {
   return <h1>Welcome to React</h1>
@@ -9,7 +8,8 @@ function Header() {
 function App() {
   return (
     <>
-    <Lightbulb />
+    <Counter />
+    {/* <Lightbulb /> */}
     {/* <ArrayDestructure /> */}
       {/* <Header />
       <Btn /> */}
