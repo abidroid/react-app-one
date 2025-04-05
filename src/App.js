@@ -1,4 +1,5 @@
 import './App.css';
+import BackgroundChange from './components/BackgroundChange.js';
 import Counter from './components/Counter.js';
 
 function Header() {
@@ -8,7 +9,8 @@ function Header() {
 function App() {
   return (
     <>
-    <Counter />
+    <BackgroundChange />
+    {/* <Counter /> */}
     {/* <Lightbulb /> */}
     {/* <ArrayDestructure /> */}
       {/* <Header />
