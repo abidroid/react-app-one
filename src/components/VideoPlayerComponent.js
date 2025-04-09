@@ -6,9 +6,11 @@ function VideoPlayerComponent(props) {
 
         <ReactPlayer
         url={props.videoUrl}
-        height={200}
+        height={400}
         controls={true}
         />
     );
 
 }
+
+export default VideoPlayerComponent;
