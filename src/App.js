@@ -6,6 +6,7 @@ import SingleViewConditionalUpdate from './components/SingleViewConditionalUpdat
 import ImageDisplay from './components/ImageDisplay.js';
 import VideoPlayerComponent from './components/VideoPlayerComponent.js';
 import AudioPlayComponent from './components/AudioPlayComponent.js';
+import SimpleCalculator from './components/SimpleCalculator.js';
 
 function Header() {
   return <h1>Welcome to React</h1>
@@ -14,7 +15,8 @@ function Header() {
 function App() {
   return (
     <>
-    <AudioPlayComponent />
+    <SimpleCalculator />
+    {/* <AudioPlayComponent /> */}
     {/* <VideoPlayerComponent videoUrl='https://www.youtube.com/watch?v=5j50FNMxMR00s' /> */}
     {/* <ImageDisplay /> */}
     {/* <SingleViewConditionalUpdate /> */}
