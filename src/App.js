@@ -39,8 +39,8 @@ const desserts = [
 function App() {
   return (
     <>
-    <DessertsList data={desserts} />
-    {/* <SimpleCalculator /> */}
+    {/* <DessertsList data={desserts} /> */}
+    <SimpleCalculator />
     {/* <AudioPlayComponent /> */}
     {/* <VideoPlayerComponent videoUrl='https://www.youtube.com/watch?v=5j50FNMxMR00s' /> */}
     {/* <ImageDisplay /> */}
