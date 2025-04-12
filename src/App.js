@@ -38,7 +38,7 @@ const desserts = [
 
 function App() {
   return (
-    <>
+    <div className='App'>
     {/* <DessertsList data={desserts} /> */}
     <SimpleCalculator />
     {/* <AudioPlayComponent /> */}
@@ -53,7 +53,7 @@ function App() {
       {/* <Header />
       <Btn /> */}
       {/* <NumberGuessBetween1and3 /> */}
-    </>
+    </div>
 
 
   );

@@ -11,7 +11,7 @@ function SimpleCalculator() {
         setSecondNumber(e.target.value);
     };
 
-    const addition = ()=> {
+    const addition = () => {
         const firstN = Number(firstNumber);
         const secondN = Number(secondNumber);
 
@@ -21,23 +21,52 @@ function SimpleCalculator() {
 
     }
 
+    const subtraction = () => {
+        const firstN = Number(firstNumber);
+        const secondN = Number(secondNumber);
+
+        let r = firstN - secondN;
+
+        setResult(r);
+    }
+    const multiplication = () => {
+        const firstN = Number(firstNumber);
+        const secondN = Number(secondNumber);
+
+        let r = firstN * secondN;
+
+        setResult(r);
+    }
+    const division = () => {
+        const firstN = Number(firstNumber);
+        const secondN = Number(secondNumber);
+
+        let r = firstN / secondN;
+
+        setResult(r);
+    }
     return (
 
-        <div className="container">
+        <div className="calculator-container">
             <h1>Simple Calculator</h1>
-            <label>First Number</label>
+            <label className="calculator-label">First Number</label>
             <input type="text" value={firstNumber} onChange={handleFirst}
             />
             <br />
-            <label>Second Number</label>
+            <label className="calculator-label">Second Number</label>
             <input type="text" value={secondNumber} onChange={handleSecond}
             />
 
-            <div className="buttonRow">
-                <button onClick={addition}>Add</button>
-                <button>Subtract</button>
-                <button>Multiply</button>
-                <button>Divide</button>
+            <div className="button-row">
+                <button className="btn"
+                    onClick={addition}>Add</button>
+                <button className="btn"
+                    onClick={subtraction}>Subtract</button>
+                <button className="btn"
+                    onClick={multiplication}>Multiply</button>
+                <button
+                    className="btn"
+                    onClick={division}>Divide</button>
             </div>
             <span>{result}</span>
         </div>
