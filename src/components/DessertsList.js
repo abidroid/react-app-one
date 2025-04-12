@@ -1,7 +1,13 @@
 
 function DessertsList(props) {
 
-    const listItems = props.data.map ( dessert => {
+    const filteredAndSortedDesserts = props.data
+    .filter( dessert => dessert.calories < 500)
+    .sort((a, b) => a.calories - b.calories);
+
+
+
+    const listItems = filteredAndSortedDesserts.map ( dessert => {
 
         const txt = `${dessert.name} - ${dessert.calories}`;
 
